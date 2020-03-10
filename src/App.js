@@ -2,7 +2,7 @@ import React from 'react';
 import Weather from './Components/Weather';
 import SearchBar from './Components/SearchBar';
 import './App.css';
- const api_key = 'ff9f1c17031657aa99f0ef1d2f7bada4';
+ const api_key = '###############################';
 
 class App extends React.Component {
   constructor(){
