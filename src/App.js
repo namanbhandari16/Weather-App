@@ -34,7 +34,7 @@ class App extends React.Component {
       <main >
       <SearchBar onSubmit={this.getWeather} className="search"/>
       {this.state.disp ?(
-                    <Weather className="hidden" city={this.state.city} country={this.state.country} temp={this.state.temp} temp_min={this.state.temp_min} temp_max={this.state.temp_max} wind={this.state.wind} desc={this.state.desc}/>
+                    <Weather city={this.state.city} country={this.state.country} temp={this.state.temp} temp_min={this.state.temp_min} temp_max={this.state.temp_max} wind={this.state.wind} desc={this.state.desc}/>
 
            ) : (
              <div></div>
